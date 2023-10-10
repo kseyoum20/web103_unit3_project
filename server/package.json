@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "reset": "cd config && node --require dotenv/config reset.js",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "pg": "^8.11.3"
   }
