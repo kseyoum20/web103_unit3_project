@@ -20,7 +20,14 @@ const Locations = () => {
         <div className='available-locations'>
             {locations.map((location, index) => (
                 <Link to={`/locations/${location.location_id}`} key={location.location_id}>
-                    {/* Add your SVG or card component to represent each location here */}
+                    {<Link to={`/locations/${location.location_id}`} key={location.location_id}>
+    <div className='location-card'>
+        <img src={location.image_url} alt={location.name} />
+        <h3>{location.name}</h3>
+        <p>{location.address}</p>
+    </div>
+</Link>
+}
                 </Link>
             ))}
         </div>
