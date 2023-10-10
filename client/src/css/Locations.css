@@ -57,3 +57,31 @@ svg polygon:hover {
     text-transform: uppercase;
     font-weight: 700;
 }
+.venue1-button-overlay,
+.venue2-button-overlay,
+.venue3-button-overlay,
+.venue4-button-overlay {
+    position: relative;
+}
+
+.venue1-button-overlay button,
+.venue2-button-overlay button,
+.venue3-button-overlay button,
+.venue4-button-overlay button {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+    z-index: 2;
+    transition: opacity 0.3s;
+}
+
+.venue1-button-overlay:hover button,
+.venue2-button-overlay:hover button,
+.venue3-button-overlay:hover button,
+.venue4-button-overlay:hover button {
+    display: block; /* Display on hover */
+}

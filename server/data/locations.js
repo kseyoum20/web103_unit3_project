@@ -18,7 +18,7 @@ const locations = [
         name: "Pavilion Park",
         address: "789 Park Ave, Groove City, 11121",
         description: "An open-air venue perfect for large concerts and festivals.",
-        image_url: "https://images.unsplash.com/photo-1567443024556-f412c2c82756?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+        image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFDlbtGgtjyuBkuWfAydkPsFETng8DxsSnUliSOZ_Uqu-1rdnQQJImrSOhm7pTN716yh0&usqp=CAU"
     },
     {
         location_id: 4,
