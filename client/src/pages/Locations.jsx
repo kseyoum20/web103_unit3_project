@@ -26,8 +26,7 @@ const Locations = () => {
         <h3>{location.name}</h3>
         <p>{location.address}</p>
     </div>
-</Link>
-}
+</Link>}
                 </Link>
             ))}
         </div>
